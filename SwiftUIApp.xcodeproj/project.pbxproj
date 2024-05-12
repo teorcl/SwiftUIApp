@@ -45,6 +45,8 @@
 		AB1520A82BD9A2B300F47AED /* DatepickerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520842BD9A2B300F47AED /* DatepickerOne.swift */; };
 		AB1520A92BD9A2B300F47AED /* DatepickerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520852BD9A2B300F47AED /* DatepickerTwo.swift */; };
 		AB1520AA2BD9A2B300F47AED /* ColorpickerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520872BD9A2B300F47AED /* ColorpickerOne.swift */; };
+		AB1968542BF07ABB00391C6E /* NavigationViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */; };
+		AB1968572BF07FD200391C6E /* NavigationLinkOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +89,8 @@
 		AB1520842BD9A2B300F47AED /* DatepickerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatepickerOne.swift; sourceTree = "<group>"; };
 		AB1520852BD9A2B300F47AED /* DatepickerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatepickerTwo.swift; sourceTree = "<group>"; };
 		AB1520872BD9A2B300F47AED /* ColorpickerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorpickerOne.swift; sourceTree = "<group>"; };
+		AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewOne.swift; sourceTree = "<group>"; };
+		AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 		AB15205B2BD9A2B300F47AED /* Navigation between screens */ = {
 			isa = PBXGroup;
 			children = (
+				AB1968552BF07FB800391C6E /* NavigationLink */,
+				AB1968522BF07A9500391C6E /* NavigationView */,
 				AB1520582BD9A2B300F47AED /* FullScreenCover.swift */,
 				AB1520592BD9A2B300F47AED /* NavigationOne.swift */,
 				AB15205A2BD9A2B300F47AED /* Sheet.swift */,
@@ -329,6 +335,22 @@
 			path = Colorpicker;
 			sourceTree = "<group>";
 		};
+		AB1968522BF07A9500391C6E /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		AB1968552BF07FB800391C6E /* NavigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */,
+			);
+			path = NavigationLink;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,8 +451,10 @@
 				AB1520482BD99F1F00F47AED /* ContentView.swift in Sources */,
 				AB1520972BD9A2B300F47AED /* ProgressViewTwo.swift in Sources */,
 				AB1520462BD99F1F00F47AED /* SwiftUIAppApp.swift in Sources */,
+				AB1968572BF07FD200391C6E /* NavigationLinkOne.swift in Sources */,
 				AB1520A12BD9A2B300F47AED /* TextfieldOne.swift in Sources */,
 				AB15208E2BD9A2B300F47AED /* Sheet.swift in Sources */,
+				AB1968542BF07ABB00391C6E /* NavigationViewOne.swift in Sources */,
 				AB1520A92BD9A2B300F47AED /* DatepickerTwo.swift in Sources */,
 				AB1520942BD9A2B300F47AED /* StepperTwo.swift in Sources */,
 				AB1520A62BD9A2B300F47AED /* LazygridTwo.swift in Sources */,
