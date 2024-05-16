@@ -11,9 +11,22 @@ struct NavigationLinkOne: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Blue", destination: ColorDetail(color: .blue))
-                NavigationLink("Red", destination: ColorDetail(color: .red))
-                NavigationLink("Yellow", destination: ColorDetail(color: .yellow))
+                NavigationLink("Blue Link", destination: ColorDetail(color: .blue))
+                NavigationLink("Red Link", destination: ColorDetail(color: .red))
+                NavigationLink("Yellow Link", destination: ColorDetail(color: .yellow))
+                
+                // Este constructor sera el que reemplaza a el de arriba
+                NavigationLink("Constructor de arriba deprecated") {
+                    ColorDetail(color: .cyan)
+                }
+                
+                //Este constructor es un poco mas abierto
+                NavigationLink {
+                    ColorDetail(color: .purple)
+                } label: {
+                    Label("Work Folder", systemImage: "folder")
+                }
+
             }
             .navigationTitle("Colors")
             

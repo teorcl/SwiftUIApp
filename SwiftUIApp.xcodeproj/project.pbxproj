@@ -47,6 +47,7 @@
 		AB1520AA2BD9A2B300F47AED /* ColorpickerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1520872BD9A2B300F47AED /* ColorpickerOne.swift */; };
 		AB1968542BF07ABB00391C6E /* NavigationViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */; };
 		AB1968572BF07FD200391C6E /* NavigationLinkOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */; };
+		AB5FC8642BF503F100B32545 /* NavigationLinkTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		AB1520872BD9A2B300F47AED /* ColorpickerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorpickerOne.swift; sourceTree = "<group>"; };
 		AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewOne.swift; sourceTree = "<group>"; };
 		AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkOne.swift; sourceTree = "<group>"; };
+		AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */,
+				AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				AB1520A82BD9A2B300F47AED /* DatepickerOne.swift in Sources */,
 				AB1520952BD9A2B300F47AED /* SliderOne.swift in Sources */,
 				AB1520902BD9A2B300F47AED /* LinkTwo.swift in Sources */,
+				AB5FC8642BF503F100B32545 /* NavigationLinkTwo.swift in Sources */,
 				AB1520A32BD9A2B300F47AED /* LazygridFour.swift in Sources */,
 				AB15209A2BD9A2B300F47AED /* TabviewTwo.swift in Sources */,
 				AB15208C2BD9A2B300F47AED /* FullScreenCover.swift in Sources */,
