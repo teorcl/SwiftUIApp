@@ -47,6 +47,8 @@
 		AB1968542BF07ABB00391C6E /* NavigationViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */; };
 		AB1968572BF07FD200391C6E /* NavigationLinkOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */; };
 		AB5FC8642BF503F100B32545 /* NavigationLinkTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */; };
+		AB5FC86A2BF879FA00B32545 /* NavigationStackOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FC8692BF879FA00B32545 /* NavigationStackOne.swift */; };
+		AB5FC86C2BF87EC400B32545 /* NavigationLinkThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FC86B2BF87EC400B32545 /* NavigationLinkThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		AB1968532BF07ABB00391C6E /* NavigationViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewOne.swift; sourceTree = "<group>"; };
 		AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkOne.swift; sourceTree = "<group>"; };
 		AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkTwo.swift; sourceTree = "<group>"; };
+		AB5FC8692BF879FA00B32545 /* NavigationStackOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackOne.swift; sourceTree = "<group>"; };
+		AB5FC86B2BF87EC400B32545 /* NavigationLinkThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 		AB15205B2BD9A2B300F47AED /* Navigation between screens */ = {
 			isa = PBXGroup;
 			children = (
+				AB5FC8682BF879DD00B32545 /* NavigationStack */,
 				AB1968552BF07FB800391C6E /* NavigationLink */,
 				AB1968522BF07A9500391C6E /* NavigationView */,
 				AB1520582BD9A2B300F47AED /* FullScreenCover.swift */,
@@ -340,6 +345,7 @@
 			children = (
 				AB1968562BF07FD200391C6E /* NavigationLinkOne.swift */,
 				AB5FC8632BF503F100B32545 /* NavigationLinkTwo.swift */,
+				AB5FC86B2BF87EC400B32545 /* NavigationLinkThree.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -349,6 +355,14 @@
 			children = (
 			);
 			name = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5FC8682BF879DD00B32545 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				AB5FC8692BF879FA00B32545 /* NavigationStackOne.swift */,
+			);
+			path = NavigationStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +458,7 @@
 				AB15209A2BD9A2B300F47AED /* TabviewTwo.swift in Sources */,
 				AB15208C2BD9A2B300F47AED /* FullScreenCover.swift in Sources */,
 				AB15209B2BD9A2B300F47AED /* ContextMenuOne.swift in Sources */,
+				AB5FC86A2BF879FA00B32545 /* NavigationStackOne.swift in Sources */,
 				AB1520A02BD9A2B300F47AED /* ActionsheetOne.swift in Sources */,
 				AB1520AA2BD9A2B300F47AED /* ColorpickerOne.swift in Sources */,
 				AB1520A42BD9A2B300F47AED /* LazygridOne.swift in Sources */,
@@ -454,6 +469,7 @@
 				AB1968572BF07FD200391C6E /* NavigationLinkOne.swift in Sources */,
 				AB1520A12BD9A2B300F47AED /* TextfieldOne.swift in Sources */,
 				AB15208E2BD9A2B300F47AED /* Sheet.swift in Sources */,
+				AB5FC86C2BF87EC400B32545 /* NavigationLinkThree.swift in Sources */,
 				AB1968542BF07ABB00391C6E /* NavigationViewOne.swift in Sources */,
 				AB1520A92BD9A2B300F47AED /* DatepickerTwo.swift in Sources */,
 				AB1520942BD9A2B300F47AED /* StepperTwo.swift in Sources */,
